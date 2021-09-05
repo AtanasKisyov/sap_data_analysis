@@ -2,11 +2,20 @@ from classes.material import Material
 
 
 def material_objects_csv(file):
+
     with open(file, "r") as sheet:
+
+        for _ in range(5):
+            sheet.__next__()
+
         previous_material_number = ""
         materials = []
+        current_line = sheet.readline()
+
         while True:
+
             current_line = sheet.readline().split("|")
+
             if len(current_line) == 1:
                 break
 
@@ -15,6 +24,9 @@ def material_objects_csv(file):
             spare = current_line[4].strip()
             component = current_line[5].strip()
             component_description = current_line[6].strip()
+
+            if current_material_number == "Material":
+                continue
 
             if ict == "X":
                 continue

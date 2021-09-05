@@ -35,8 +35,8 @@ class Material:
 
     def compare_components(self, other):
         if self.components['Wire'] == other.components['Wire']:
-            first_material = {self.components.values()}
-            second_material = {other.components.values()}
+            first_material = set(self.components.values())
+            second_material = set(other.components.values())
             return first_material.difference(second_material)
         return "Wire difference"
 

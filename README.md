@@ -1,4 +1,4 @@
-# Project for comparing obsolete or excessive wires with active wires on the shop floor .
+# Project for comparing obsolete or excessive wires with active wires on the shop floor 
 
 Current version works with single circuit wires.
 

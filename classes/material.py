@@ -15,7 +15,7 @@ class Material:
     @length.setter
     def length(self, value):
         if value < 0:
-            raise ValueError("Wire length cannot be less than or equal to zero!")
+            raise ValueError("Wire length cannot be less than zero!")
         self.__length = value
 
     def add_wire(self, wire_number):

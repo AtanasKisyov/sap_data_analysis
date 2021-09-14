@@ -1,4 +1,4 @@
-class Material:
+class SingleWire:
 
     def __init__(self, material_number, description):
         self.material_number = material_number
@@ -45,3 +45,17 @@ class Material:
         if 0 <= difference <= 50:
             return difference
         return False
+
+
+class TwistedWire(SingleWire):
+
+    def __init__(self, material_number, description):
+        super().__init__(material_number, description)
+        self.wires = []  # SingleWire objects
+
+
+class Splice(SingleWire):
+
+    def __init__(self, material_number, description):
+        super().__init__(material_number, description)
+        self.wires = []  # SingleWire objects

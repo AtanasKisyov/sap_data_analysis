@@ -2,11 +2,11 @@ import csv
 
 
 def write_to_file(file_name, close_materials_collection):
-    header = ["Material", "Description", "Length", "Wire", "Left Terminal", "Right Terminal", "Left Seal", "Right Seal",
-              "Material", "Description", "Length", "Wire", "Left Terminal", "Right Terminal", "Left Seal", "Right Seal",
-              "Length Difference", "Comment"
+    header = ['Material', 'Description', 'Length', 'Wire', 'Left Terminal', 'Right Terminal', 'Left Seal', 'Right Seal',
+              'Material', 'Description', 'Length', 'Wire', 'Left Terminal', 'Right Terminal', 'Left Seal', 'Right Seal',
+              'Length Difference', 'Comment'
               ]
-    with open(file_name, "w", encoding='UTF8', newline='') as file:
+    with open(file_name, 'w', encoding='UTF8', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(header)
 
@@ -32,7 +32,7 @@ def write_to_file(file_name, close_materials_collection):
                            close_material.components['Left Seal'],
                            close_material.components['Right Seal'],
                            length_difference,
-                           "Length Difference"
+                           'Length Difference'
                            ]
                     writer.writerow(row)
 

@@ -1,20 +1,20 @@
-from classes.material import Material
+from classes.wire_types import SingleWire
 
 
 def material_objects_csv(file):
 
-    with open(file, "r") as sheet:
+    with open(file, 'r') as sheet:
 
         for _ in range(5):
             sheet.__next__()
 
-        previous_material_number = ""
+        previous_material_number = ''
         materials = []
         current_line = sheet.readline()
 
         while True:
 
-            current_line = sheet.readline().split("|")
+            current_line = sheet.readline().split('|')
 
             if len(current_line) == 1:
                 break
@@ -25,32 +25,32 @@ def material_objects_csv(file):
             component = current_line[5].strip()
             component_description = current_line[6].strip()
 
-            if current_material_number == "Material":
+            if current_material_number == 'Material':
                 continue
 
-            if ict == "X":
+            if ict == 'X':
                 continue
 
             if not previous_material_number == current_material_number:
-                current_material = Material(current_material_number, description)
+                current_material = SingleWire(current_material_number, description)
             previous_material_number = current_material_number
 
-            if ict == "L" and not spare:
+            if ict == 'L' and not spare:
                 length = current_line[9].strip()
                 if len(length) > 3:
-                    length = length.replace(" ", "")
+                    length = length.replace(' ', '')
                 length = int(length)
                 current_material.length = length
                 current_material.add_wire(component)
 
-            if ict == "L" and spare == "L":
-                if "Term" in component_description:
+            if ict == 'L' and spare == 'L':
+                if 'Term' in component_description:
                     current_material.add_left_terminal(component)
                     continue
                 current_material.add_left_seal(component)
 
-            if ict == "L" and spare == "R":
-                if "Term" in component_description:
+            if ict == 'L' and spare == 'R':
+                if 'Term' in component_description:
                     current_material.add_right_terminal(component)
                     continue
                 current_material.add_right_seal(component)

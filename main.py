@@ -1,5 +1,5 @@
 import time
-from functions.material_objects import material_objects_csv
+from functions.create_wires import create_single_wires
 from functions.compare_materials import compare_materials
 from functions.write_to_file import write_to_file
 
@@ -7,11 +7,11 @@ start = time.time()
 
 print("File opened...")
 
-obsolete_materials = material_objects_csv("Files/obsolete.csv")
+obsolete_materials = create_single_wires("Files/obsolete_wires.csv")
 
 print("Obsolete material objects created...")
 
-active_materials = material_objects_csv("Files/active.csv")
+active_materials = create_single_wires("Files/active_wires.csv")
 
 print("Active material objects created...")
 

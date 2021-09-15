@@ -1,7 +1,16 @@
-# Project for comparing obsolete or excessive wires with active wires on the shop floor 
+# Project for comparing obsolete or excessive wires with active wires on the shop floor
 
-Current version works with single circuit wires.
+#Python 3.9.5 (No external libraries)
 
-Next update will include comparison for more complex types (Twisted wires, Splices, etc.)
+#SAP requirements: PP BOM Evaluation table (tcode YQ298 or similar).
 
-Expected update: 20.09.2021 
+#Current version works with single circuit wires.
+Use:
+
+Export the needed information for active materials from SAP table in unconverted .csv
+
+Export the needed information for obsolete materials from SAP table in unconverted .csv
+
+Both files should be pasted in the "Files" directory.
+
+Open the main.py file in console.

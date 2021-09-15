@@ -1,0 +1,663 @@
+15.09.2021                                                                PP BOM Evaluation                                                                   1
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+PP BOM Evaluation
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Material  |Material Number                         |ICt|Spare|Component |BOM component                           |Item Text Line 1|Item text line 2|Quantity|Un|
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|S000632712|Circuit 0038 FLRYA 0.35 B             |L  |L    |7116567802|Terminal GET Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S000632712|Circuit 0038 FLRYA 0.35 B             |L  |R    |7116415002|Terminal YESC Female 2.8mm Sealed       |                |                |      1 |PC|
+|S000632712|Circuit 0038 FLRYA 0.35 B             |L  |R    |7158311160|Single Wire Seal Green                  |                |                |      1 |PC|
+|S000741338|Circuit 0019 FLRYB 6 B                |L  |     |H2806730  |LT Single Wire FLRYB 6 B                |                |                |    515 |MM|
+|S000741338|Circuit 0019 FLRYB 6 B                |X  |     |          |                                        |KS74780130      |L               |      1 |PC|
+|S000741338|Circuit 0019 FLRYB 6 B                |X  |     |          |                                        |KS74780130      |R               |      1 |PC|
+|S001192680|Circuit 0025 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |  1 735 |MM|
+|S001192680|Circuit 0025 FLRYB 2.5 B              |L  |L    |7116820302|Terminal DCS-1 Female 2.8mm Sealed      |                |                |      1 |PC|
+|S001192680|Circuit 0025 FLRYB 2.5 B              |L  |R    |7116415202|Terminal YESC Female 2.8mm Sealed       |                |                |      1 |PC|
+|S001192680|Circuit 0025 FLRYB 2.5 B              |L  |R    |7158311340|Single Wire Seal White                  |                |                |      1 |PC|
+|S001192801|Circuit 0024 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |  1 735 |MM|
+|S001192801|Circuit 0024 FLRYB 2.5 B              |L  |L    |7116820302|Terminal DCS-1 Female 2.8mm Sealed      |                |                |      1 |PC|
+|S001192801|Circuit 0024 FLRYB 2.5 B              |L  |R    |7116415202|Terminal YESC Female 2.8mm Sealed       |                |                |      1 |PC|
+|S001192801|Circuit 0024 FLRYB 2.5 B              |L  |R    |7158311340|Single Wire Seal White                  |                |                |      1 |PC|
+|S001193830|Circuit 0021 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |  1 740 |MM|
+|S001193830|Circuit 0021 FLRYB 2.5 B              |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S001193830|Circuit 0021 FLRYB 2.5 B              |L  |R    |7116415202|Terminal YESC Female 2.8mm Sealed       |                |                |      1 |PC|
+|S001193830|Circuit 0021 FLRYB 2.5 B              |L  |R    |7158311340|Single Wire Seal White                  |                |                |      1 |PC|
+|S001195686|Circuit 0020 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |  1 740 |MM|
+|S001195686|Circuit 0020 FLRYB 2.5 B              |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S001195686|Circuit 0020 FLRYB 2.5 B              |L  |R    |7116415202|Terminal YESC Female 2.8mm Sealed       |                |                |      1 |PC|
+|S001195686|Circuit 0020 FLRYB 2.5 B              |L  |R    |7158311340|Single Wire Seal White                  |                |                |      1 |PC|
+|S001545828|Circuit 0001 FLRYA 1 B                |L  |     |C9706030  |LT Single Wire FLRYA 1 B                |                |                |  1 585 |MM|
+|S001545828|Circuit 0001 FLRYA 1 B                |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S001545828|Circuit 0001 FLRYA 1 B                |L  |R    |7116631602|Terminal YESC Female 1.5mm Unsealed     |                |                |      1 |PC|
+|S001545828|Circuit 0001 FLRYA 1 B                |L  |L    |7158303190|Single Wire Seal Blue                   |                |                |      1 |PC|
+|S001545829|Circuit 0002 FLRYA 1 B                |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S001545829|Circuit 0002 FLRYA 1 B                |L  |R    |7116631602|Terminal YESC Female 1.5mm Unsealed     |                |                |      1 |PC|
+|S001545829|Circuit 0002 FLRYA 1 B                |L  |L    |7158303190|Single Wire Seal Blue                   |                |                |      1 |PC|
+|S001545829|Circuit 0002 FLRYA 1 B                |L  |     |C9706030  |LT Single Wire FLRYA 1 B                |                |                |  1 585 |MM|
+|S001545831|Circuit 0008 FLRYA 0.5 B              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S001545831|Circuit 0008 FLRYA 0.5 B              |L  |R    |7116631502|Terminal YESC Female 1.5mm Unsealed     |                |                |      1 |PC|
+|S001545831|Circuit 0008 FLRYA 0.5 B              |L  |L    |7158303050|Single Wire Seal Red                    |                |                |      1 |PC|
+|S001545831|Circuit 0008 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 585 |MM|
+|S001545832|Circuit 0010 FLRYA 1 B                |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S001545832|Circuit 0010 FLRYA 1 B                |L  |R    |7116631602|Terminal YESC Female 1.5mm Unsealed     |                |                |      1 |PC|
+|S001545832|Circuit 0010 FLRYA 1 B                |L  |L    |7158303190|Single Wire Seal Blue                   |                |                |      1 |PC|
+|S001545832|Circuit 0010 FLRYA 1 B                |L  |     |C9706030  |LT Single Wire FLRYA 1 B                |                |                |  1 585 |MM|
+|S001545836|Circuit 0005 FLRYA 0.5 B              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S001545836|Circuit 0005 FLRYA 0.5 B              |L  |R    |7116631502|Terminal YESC Female 1.5mm Unsealed     |                |                |      1 |PC|
+|S001545836|Circuit 0005 FLRYA 0.5 B              |L  |L    |7158303050|Single Wire Seal Red                    |                |                |      1 |PC|
+|S001545836|Circuit 0005 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 585 |MM|
+|S001545839|Circuit 0012 FLRYA 0.5 B              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S001545839|Circuit 0012 FLRYA 0.5 B              |L  |R    |7116631502|Terminal YESC Female 1.5mm Unsealed     |                |                |      1 |PC|
+|S001545839|Circuit 0012 FLRYA 0.5 B              |L  |L    |7158303050|Single Wire Seal Red                    |                |                |      1 |PC|
+|S001545839|Circuit 0012 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 585 |MM|
+|S001550826|Circuit 0023 FLRYB 6 B                |L  |     |H2806730  |LT Single Wire FLRYB 6 B                |                |                |    530 |MM|
+|S001550826|Circuit 0023 FLRYB 6 B                |X  |     |          |                                        |KS74780150      |L               |      1 |PC|
+|S001550826|Circuit 0023 FLRYB 6 B                |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001550837|Circuit 0035 FLRYA 0.5 B GD135C       |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001550837|Circuit 0035 FLRYA 0.5 B GD135C       |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S001550837|Circuit 0035 FLRYA 0.5 B GD135C       |L  |L    |7158303050|Single Wire Seal Red                    |                |                |      1 |PC|
+|S001550837|Circuit 0035 FLRYA 0.5 B GD135C       |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 175 |MM|
+|S001550883|Circuit 0022 FLRYB 6 B                |L  |     |H2806730  |LT Single Wire FLRYB 6 B                |                |                |    480 |MM|
+|S001550883|Circuit 0022 FLRYB 6 B                |X  |     |          |                                        |KS74780150      |L               |      1 |PC|
+|S001550883|Circuit 0022 FLRYB 6 B                |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001556406|Circuit 0028 FLRYB 6 B                |L  |     |H2806730  |LT Single Wire FLRYB 6 B                |                |                |    555 |MM|
+|S001556406|Circuit 0028 FLRYB 6 B                |X  |     |          |                                        |KS74780150      |L               |      1 |PC|
+|S001556406|Circuit 0028 FLRYB 6 B                |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001558488|Circuit 0001 FLRYA 0.5 B/GY           |L  |     |C9703916  |LT Single Wire FLRYA 0.5 B/GY           |                |                |  1 110 |MM|
+|S001558488|Circuit 0001 FLRYA 0.5 B/GY           |L  |L    |71161225  |Terminal 040 Female 1.0mm Unsealed      |                |                |      1 |PC|
+|S001558488|Circuit 0001 FLRYA 0.5 B/GY           |L  |R    |7116568302|Terminal GET Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S001558489|Circuit 0002 FLRYA 0.5 W/V            |L  |L    |71161225  |Terminal 040 Female 1.0mm Unsealed      |                |                |      1 |PC|
+|S001558489|Circuit 0002 FLRYA 0.5 W/V            |L  |R    |7116568302|Terminal GET Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S001558489|Circuit 0002 FLRYA 0.5 W/V            |L  |     |C97039C1  |LT Single Wire FLRYA 0.5 W/V            |                |                |  1 110 |MM|
+|S001887056|Circuit 0020 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001887056|Circuit 0020 FLRYB 2.5 B              |L  |L    |7116820302|Terminal DCS-1 Female 2.8mm Sealed      |                |                |      1 |PC|
+|S001887056|Circuit 0020 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    130 |MM|
+|S001887057|Circuit 0023 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001887057|Circuit 0023 FLRYB 2.5 B              |L  |L    |7116820302|Terminal DCS-1 Female 2.8mm Sealed      |                |                |      1 |PC|
+|S001887057|Circuit 0023 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    160 |MM|
+|S001887060|Circuit 0027 FLRYA 0.75 B             |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001887060|Circuit 0027 FLRYA 0.75 B             |L  |L    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S001887060|Circuit 0027 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    475 |MM|
+|S001887061|Circuit 0029 FLRYA 0.75 B             |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001887061|Circuit 0029 FLRYA 0.75 B             |L  |L    |7116820202|Terminal 110 Female 2.8mm Unsealed      |                |                |      1 |PC|
+|S001887061|Circuit 0029 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    550 |MM|
+|S001887062|Circuit 0031 FLRYA 0.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001887062|Circuit 0031 FLRYA 0.5 B              |L  |L    |7116568302|Terminal GET Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S001887062|Circuit 0031 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    550 |MM|
+|S001887081|Circuit 0028 FLRYA 0.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001887081|Circuit 0028 FLRYA 0.5 B              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S001887081|Circuit 0028 FLRYA 0.5 B              |L  |L    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S001887081|Circuit 0028 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 700 |MM|
+|S001887087|Circuit 0020 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    135 |MM|
+|S001887087|Circuit 0020 FLRYB 2.5 B              |L  |L    |7116820302|Terminal DCS-1 Female 2.8mm Sealed      |                |                |      1 |PC|
+|S001887087|Circuit 0020 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001887090|Circuit 0023 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001887090|Circuit 0023 FLRYB 2.5 B              |L  |L    |7116820302|Terminal DCS-1 Female 2.8mm Sealed      |                |                |      1 |PC|
+|S001887090|Circuit 0023 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    175 |MM|
+|S001887095|Circuit 0032 FLRYA 0.5 B GD135C GD135B|X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001887095|Circuit 0032 FLRYA 0.5 B GD135C GD135B|L  |L    |7116568302|Terminal GET Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S001887095|Circuit 0032 FLRYA 0.5 B GD135C GD135B|L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    570 |MM|
+|S001908434|Circuit 0022 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001908434|Circuit 0022 FLRYB 2.5 B              |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S001908434|Circuit 0022 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    210 |MM|
+|S001908436|Circuit 0025 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S001908436|Circuit 0025 FLRYB 2.5 B              |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S001908436|Circuit 0025 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    190 |MM|
+|S002004047|Circuit 0026 FLRYB 6 B                |X  |     |          |                                        |KS74780150      |L               |      1 |PC|
+|S002004047|Circuit 0026 FLRYB 6 B                |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S002004047|Circuit 0026 FLRYB 6 B                |L  |     |H2806730  |LT Single Wire FLRYB 6 B                |                |                |    360 |MM|
+|S002576169|Circuit 0035 FLRYA 0.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S002576169|Circuit 0035 FLRYA 0.5 B              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S002576169|Circuit 0035 FLRYA 0.5 B              |L  |L    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S002576169|Circuit 0035 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 165 |MM|
+|S002576170|Circuit 0032 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S002576170|Circuit 0032 FLRYB 2.5 B              |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S002576170|Circuit 0032 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    380 |MM|
+|S002576443|Circuit 0030 FLRYA 1 B                |L  |     |C9706030  |LT Single Wire FLRYA 1 B                |                |                |    320 |MM|
+|S002576443|Circuit 0030 FLRYA 1 B                |X  |     |          |                                        |KS74780150      |L               |      1 |PC|
+|S002576443|Circuit 0030 FLRYA 1 B                |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S002660668|Circuit 0060 FLRYA 0.75 B             |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S002660668|Circuit 0060 FLRYA 0.75 B             |L  |L    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S002660668|Circuit 0060 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    460 |MM|
+|S002915438|Circuit 0020 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |  1 760 |MM|
+|S002915438|Circuit 0020 FLRYB 2.5 B              |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S002915438|Circuit 0020 FLRYB 2.5 B              |L  |R    |7116415202|Terminal YESC Female 2.8mm Sealed       |                |                |      1 |PC|
+|S002915438|Circuit 0020 FLRYB 2.5 B              |L  |R    |7158311340|Single Wire Seal White                  |                |                |      1 |PC|
+|S003113191|Circuit 0028 FLRYA 0.75 B             |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003113191|Circuit 0028 FLRYA 0.75 B             |L  |L    |7114410102|Terminal YESC Male 1.5mm Unsealed       |                |                |      1 |PC|
+|S003113191|Circuit 0028 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    695 |MM|
+|S003113193|Circuit 0030 FLRYA 0.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003113193|Circuit 0030 FLRYA 0.5 B              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003113193|Circuit 0030 FLRYA 0.5 B              |L  |L    |7158303050|Single Wire Seal Red                    |                |                |      1 |PC|
+|S003113193|Circuit 0030 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 170 |MM|
+|S003118152|Circuit 0124 FLRYA 0.5 B/GY           |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003118152|Circuit 0124 FLRYA 0.5 B/GY           |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003118152|Circuit 0124 FLRYA 0.5 B/GY           |L  |     |C9703916  |LT Single Wire FLRYA 0.5 B/GY           |                |                |    315 |MM|
+|S003118153|Circuit 0125 FLRYA 0.75 B/GY          |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003118153|Circuit 0125 FLRYA 0.75 B/GY          |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003118153|Circuit 0125 FLRYA 0.75 B/GY          |L  |L    |7157339660|Single Wire Seal Green                  |                |                |      1 |PC|
+|S003118153|Circuit 0125 FLRYA 0.75 B/GY          |L  |     |C9704016  |LT Single Wire FLRYA 0.75 B/GY          |                |                |    560 |MM|
+|S003118226|Circuit 0008 FLRYA 0.5 L/G            |L  |     |C9703996  |LT Single Wire FLRYA 0.5 L/G            |                |                |    365 |MM|
+|S003118226|Circuit 0008 FLRYA 0.5 L/G            |L  |L    |7116472102|Terminal YESC Female 0.64mm Sealed/Unsea|                |                |      1 |PC|
+|S003118226|Circuit 0008 FLRYA 0.5 L/G            |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003118323|Circuit 0102 FLRYA 0.5 B/GY           |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003118323|Circuit 0102 FLRYA 0.5 B/GY           |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003118323|Circuit 0102 FLRYA 0.5 B/GY           |L  |     |C9703916  |LT Single Wire FLRYA 0.5 B/GY           |                |                |    780 |MM|
+|S003118356|Circuit 0119 FLRYA 0.5 W/O            |L  |     |C97039E1  |LT Single Wire FLRYA 0.5 W/O            |                |                |  2 055 |MM|
+|S003118356|Circuit 0119 FLRYA 0.5 W/O            |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003118356|Circuit 0119 FLRYA 0.5 W/O            |L  |R    |7196094002|Terminal 025 Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S003118361|Circuit 0133 FLRYA 0.5 Y/L            |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003118361|Circuit 0133 FLRYA 0.5 Y/L            |L  |R    |7196094002|Terminal 025 Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S003118361|Circuit 0133 FLRYA 0.5 Y/L            |L  |     |C9703979  |LT Single Wire FLRYA 0.5 Y/L            |                |                |  2 055 |MM|
+|S003118362|Circuit 0134 FLRYA 0.5 V/BR           |L  |     |C97039W9  |LT Single Wire FLRYA 0.5 V/BR           |                |                |  2 055 |MM|
+|S003118362|Circuit 0134 FLRYA 0.5 V/BR           |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003118362|Circuit 0134 FLRYA 0.5 V/BR           |L  |R    |7196094002|Terminal 025 Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S003118363|Circuit 0135 FLRYA 0.5 W/V            |L  |     |C97039C1  |LT Single Wire FLRYA 0.5 W/V            |                |                |  2 055 |MM|
+|S003118363|Circuit 0135 FLRYA 0.5 W/V            |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003118363|Circuit 0135 FLRYA 0.5 W/V            |L  |R    |7196094002|Terminal 025 Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S003118402|Circuit 0030 FLRYA 0.75 B             |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003118402|Circuit 0030 FLRYA 0.75 B             |L  |L    |7114410102|Terminal YESC Male 1.5mm Unsealed       |                |                |      1 |PC|
+|S003118402|Circuit 0030 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    695 |MM|
+|S003294769|Circuit 0059 FLRYA 1 B                |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003294769|Circuit 0059 FLRYA 1 B                |L  |L    |7114198402|Terminal 110 Male 2.8mm Unsealed        |                |                |      1 |PC|
+|S003294769|Circuit 0059 FLRYA 1 B                |L  |     |C9706030  |LT Single Wire FLRYA 1 B                |                |                |    405 |MM|
+|S003349004|Circuit 0059 FLRYA 0.5 B              |L  |L    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003349004|Circuit 0059 FLRYA 0.5 B              |L  |R    |7116568302|Terminal GET Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S003349004|Circuit 0059 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 115 |MM|
+|S003407566|Circuit 0048 FLRYA 0.5 B              |X  |     |          |                                        |KS74780150      |L               |      1 |PC|
+|S003407566|Circuit 0048 FLRYA 0.5 B              |L  |R    |7114700102|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003407566|Circuit 0048 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    275 |MM|
+|S003407567|Circuit 0036 FLRYA 0.35 B             |L  |L    |7116415002|Terminal YESC Female 2.8mm Sealed       |                |                |      1 |PC|
+|S003407567|Circuit 0036 FLRYA 0.35 B             |L  |L    |7158311160|Single Wire Seal Green                  |                |                |      1 |PC|
+|S003407567|Circuit 0036 FLRYA 0.35 B             |L  |R    |7196098102|Terminal Generation Y Female 0.64mm Unse|                |                |      1 |PC|
+|S003407567|Circuit 0036 FLRYA 0.35 B             |L  |     |C9706930  |LT Single Wire FLRYA 0.35 B             |                |                |  1 730 |MM|
+|S003407568|Circuit 0038 FLRYA 0.35 B             |L  |L    |7116415002|Terminal YESC Female 2.8mm Sealed       |                |                |      1 |PC|
+|S003407568|Circuit 0038 FLRYA 0.35 B             |L  |L    |7158311160|Single Wire Seal Green                  |                |                |      1 |PC|
+|S003407568|Circuit 0038 FLRYA 0.35 B             |L  |R    |7196098102|Terminal Generation Y Female 0.64mm Unse|                |                |      1 |PC|
+|S003407568|Circuit 0038 FLRYA 0.35 B             |L  |     |C9706930  |LT Single Wire FLRYA 0.35 B             |                |                |  1 730 |MM|
+|S003407569|Circuit 0043 FLRYA 0.35 B             |L  |L    |7116415002|Terminal YESC Female 2.8mm Sealed       |                |                |      1 |PC|
+|S003407569|Circuit 0043 FLRYA 0.35 B             |L  |L    |7158311160|Single Wire Seal Green                  |                |                |      1 |PC|
+|S003407569|Circuit 0043 FLRYA 0.35 B             |L  |R    |7196098102|Terminal Generation Y Female 0.64mm Unse|                |                |      1 |PC|
+|S003407569|Circuit 0043 FLRYA 0.35 B             |L  |     |C9706930  |LT Single Wire FLRYA 0.35 B             |                |                |  1 730 |MM|
+|S003407570|Circuit 0044 FLRYA 0.35 B             |L  |L    |7116415002|Terminal YESC Female 2.8mm Sealed       |                |                |      1 |PC|
+|S003407570|Circuit 0044 FLRYA 0.35 B             |L  |L    |7158311160|Single Wire Seal Green                  |                |                |      1 |PC|
+|S003407570|Circuit 0044 FLRYA 0.35 B             |L  |R    |7196098102|Terminal Generation Y Female 0.64mm Unse|                |                |      1 |PC|
+|S003407570|Circuit 0044 FLRYA 0.35 B             |L  |     |C9706930  |LT Single Wire FLRYA 0.35 B             |                |                |  1 730 |MM|
+|S003418604|Circuit 0027 FLRYA 0.5 G              |L  |R    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003418604|Circuit 0027 FLRYA 0.5 G              |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003418604|Circuit 0027 FLRYA 0.5 G              |L  |R    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003418604|Circuit 0027 FLRYA 0.5 G              |L  |     |C9703960  |LT Single Wire FLRYA 0.5 G              |                |                |  1 580 |MM|
+|S003418605|Circuit 0108 FLRYA 0.5 B/G            |L  |     |C9703936  |LT Single Wire FLRYA 0.5 B/G            |                |                |  1 580 |MM|
+|S003418605|Circuit 0108 FLRYA 0.5 B/G            |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003418605|Circuit 0108 FLRYA 0.5 B/G            |L  |R    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003418605|Circuit 0108 FLRYA 0.5 B/G            |L  |R    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003418626|Circuit 0126 FLRYA 0.75 B/GY          |L  |     |C9704016  |LT Single Wire FLRYA 0.75 B/GY          |                |                |  2 520 |MM|
+|S003418626|Circuit 0126 FLRYA 0.75 B/GY          |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003418626|Circuit 0126 FLRYA 0.75 B/GY          |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003418626|Circuit 0126 FLRYA 0.75 B/GY          |L  |L    |7157339660|Single Wire Seal Green                  |                |                |      1 |PC|
+|S003418627|Circuit 0035 FLRYA 1.5 BR/Y           |L  |     |C9706587  |LT Single Wire FLRYA 1.5 BR/Y           |                |                |  2 330 |MM|
+|S003418627|Circuit 0035 FLRYA 1.5 BR/Y           |L  |L    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003418627|Circuit 0035 FLRYA 1.5 BR/Y           |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003418628|Circuit 0037 FLRYA 1.5 W/G            |L  |     |C9706546  |LT Single Wire FLRYA 1.5 W/G            |                |                |  2 330 |MM|
+|S003418628|Circuit 0037 FLRYA 1.5 W/G            |L  |L    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003418628|Circuit 0037 FLRYA 1.5 W/G            |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003418629|Circuit 0027 FLRYA 0.5 G              |L  |R    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003418629|Circuit 0027 FLRYA 0.5 G              |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003418629|Circuit 0027 FLRYA 0.5 G              |L  |R    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003418629|Circuit 0027 FLRYA 0.5 G              |L  |     |C9703960  |LT Single Wire FLRYA 0.5 G              |                |                |  2 355 |MM|
+|S003418630|Circuit 0108 FLRYA 0.5 B/G            |L  |     |C9703936  |LT Single Wire FLRYA 0.5 B/G            |                |                |  2 355 |MM|
+|S003418630|Circuit 0108 FLRYA 0.5 B/G            |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003418630|Circuit 0108 FLRYA 0.5 B/G            |L  |R    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003418630|Circuit 0108 FLRYA 0.5 B/G            |L  |R    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003418689|Circuit 0030 FLRYA 0.5 Y              |L  |R    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003418689|Circuit 0030 FLRYA 0.5 Y              |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003418689|Circuit 0030 FLRYA 0.5 Y              |L  |R    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003418689|Circuit 0030 FLRYA 0.5 Y              |L  |     |C9703970  |LT Single Wire FLRYA 0.5 Y              |                |                |  2 100 |MM|
+|S003418692|Circuit 0090 FLRYA 0.5 GY/O           |L  |     |C9703921  |LT Single Wire FLRYA 0.5 GY/O           |                |                |  3 015 |MM|
+|S003418692|Circuit 0090 FLRYA 0.5 GY/O           |L  |L    |7116472102|Terminal YESC Female 0.64mm Sealed/Unsea|                |                |      1 |PC|
+|S003418692|Circuit 0090 FLRYA 0.5 GY/O           |L  |R    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003418721|Circuit 0030 FLRYA 0.5 Y              |L  |     |C9703970  |LT Single Wire FLRYA 0.5 Y              |                |                |  2 810 |MM|
+|S003418721|Circuit 0030 FLRYA 0.5 Y              |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003418721|Circuit 0030 FLRYA 0.5 Y              |L  |R    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003418721|Circuit 0030 FLRYA 0.5 Y              |L  |R    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003418727|Circuit 0055 FLRYA 0.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003418727|Circuit 0055 FLRYA 0.5 B              |L  |L    |7114700102|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003418727|Circuit 0055 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    275 |MM|
+|S003418730|Circuit 0056 FLRYA 0.5 B              |L  |L    |7114410002|Terminal YESC Male 1.5mm Unsealed       |                |                |      1 |PC|
+|S003418730|Circuit 0056 FLRYA 0.5 B              |L  |R    |7114700102|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003418730|Circuit 0056 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    635 |MM|
+|S003419170|Circuit 0008 FLRYA 1.5 W/G            |L  |     |C9706546  |LT Single Wire FLRYA 1.5 W/G            |                |                |    890 |MM|
+|S003419170|Circuit 0008 FLRYA 1.5 W/G            |L  |L    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003419170|Circuit 0008 FLRYA 1.5 W/G            |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003419379|Circuit 0103 FLRYA 0.5 B/G            |L  |     |C9703936  |LT Single Wire FLRYA 0.5 B/G            |                |                |  1 155 |MM|
+|S003419379|Circuit 0103 FLRYA 0.5 B/G            |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003419379|Circuit 0103 FLRYA 0.5 B/G            |L  |R    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003419379|Circuit 0103 FLRYA 0.5 B/G            |L  |L    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003419405|Circuit 0028 FLRYA 0.5 Y              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003419405|Circuit 0028 FLRYA 0.5 Y              |L  |R    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003419405|Circuit 0028 FLRYA 0.5 Y              |L  |L    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003419405|Circuit 0028 FLRYA 0.5 Y              |L  |     |C9703970  |LT Single Wire FLRYA 0.5 Y              |                |                |  1 155 |MM|
+|S003419440|Circuit 0109 FLRYA 0.5 W/BR           |L  |     |C9703948  |LT Single Wire FLRYA 0.5 W/BR           |                |                |  2 130 |MM|
+|S003419440|Circuit 0109 FLRYA 0.5 W/BR           |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S003419440|Circuit 0109 FLRYA 0.5 W/BR           |L  |R    |7114631502|Terminal YESC Male 1.5mm Unsealed       |                |                |      1 |PC|
+|S003467475|Circuit 0009 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |  1 090 |MM|
+|S003467475|Circuit 0009 FLRYB 2.5 B              |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003467475|Circuit 0009 FLRYB 2.5 B              |L  |R    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003467546|Circuit 0023 FRYA 0.5 B               |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    670 |MM|
+|S003467546|Circuit 0023 FRYA 0.5 B               |L  |L    |7114700102|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003467546|Circuit 0023 FRYA 0.5 B               |L  |R    |7114429802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003467604|Circuit 0018 FLRYA 0.5 B              |L  |R    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467604|Circuit 0018 FLRYA 0.5 B              |L  |L    |7116568302|Terminal GET Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S003467604|Circuit 0018 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    920 |MM|
+|S003467704|Circuit 0024 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    640 |MM|
+|S003467704|Circuit 0024 FLRYA 0.5 B              |L  |L    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467704|Circuit 0024 FLRYA 0.5 B              |L  |R    |7114700102|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003467811|Circuit 0025 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    635 |MM|
+|S003467811|Circuit 0025 FLRYA 0.5 B              |L  |L    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467811|Circuit 0025 FLRYA 0.5 B              |L  |R    |7114700102|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003467812|Circuit 0024 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    665 |MM|
+|S003467812|Circuit 0024 FLRYA 0.5 B              |L  |L    |7114429802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003467812|Circuit 0024 FLRYA 0.5 B              |L  |R    |7114700102|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003467816|Circuit 0039 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 125 |MM|
+|S003467816|Circuit 0039 FLRYA 0.5 B              |L  |L    |7116427002|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003467816|Circuit 0039 FLRYA 0.5 B              |L  |R    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467817|Circuit 0015 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 860 |MM|
+|S003467817|Circuit 0015 FLRYA 0.5 B              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003467817|Circuit 0015 FLRYA 0.5 B              |L  |R    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467817|Circuit 0015 FLRYA 0.5 B              |L  |L    |7158303050|Single Wire Seal Red                    |                |                |      1 |PC|
+|S003467819|Circuit 0009 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 860 |MM|
+|S003467819|Circuit 0009 FLRYA 0.5 B              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003467819|Circuit 0009 FLRYA 0.5 B              |L  |R    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467819|Circuit 0009 FLRYA 0.5 B              |L  |L    |7158303050|Single Wire Seal Red                    |                |                |      1 |PC|
+|S003467872|Circuit 0008 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 850 |MM|
+|S003467872|Circuit 0008 FLRYA 0.5 B              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003467872|Circuit 0008 FLRYA 0.5 B              |L  |R    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467872|Circuit 0008 FLRYA 0.5 B              |L  |L    |7158303050|Single Wire Seal Red                    |                |                |      1 |PC|
+|S003467873|Circuit 0011 FLRYA 0.5 B              |L  |R    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467873|Circuit 0011 FLRYA 0.5 B              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003467873|Circuit 0011 FLRYA 0.5 B              |L  |L    |7158303050|Single Wire Seal Red                    |                |                |      1 |PC|
+|S003467873|Circuit 0011 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 840 |MM|
+|S003467876|Circuit 0007 FLRYA 0.5 B              |L  |R    |7114700102|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003467876|Circuit 0007 FLRYA 0.5 B              |L  |L    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467876|Circuit 0007 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    640 |MM|
+|S003467879|Circuit 0006 FLRYA 0.5 B              |L  |L    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467879|Circuit 0006 FLRYA 0.5 B              |L  |R    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003467879|Circuit 0006 FLRYA 0.5 B              |L  |R    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003467879|Circuit 0006 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  2 095 |MM|
+|S003467880|Circuit 0001 FLRYA 1 B                |L  |R    |7114198402|Terminal 110 Male 2.8mm Unsealed        |                |                |      1 |PC|
+|S003467880|Circuit 0001 FLRYA 1 B                |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003467880|Circuit 0001 FLRYA 1 B                |L  |L    |7158303190|Single Wire Seal Blue                   |                |                |      1 |PC|
+|S003467880|Circuit 0001 FLRYA 1 B                |L  |     |C9706030  |LT Single Wire FLRYA 1 B                |                |                |  1 860 |MM|
+|S003467941|Circuit 0002 FLRYA 1 B                |L  |     |C9706030  |LT Single Wire FLRYA 1 B                |                |                |  1 855 |MM|
+|S003467941|Circuit 0002 FLRYA 1 B                |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003467941|Circuit 0002 FLRYA 1 B                |L  |R    |7114198402|Terminal 110 Male 2.8mm Unsealed        |                |                |      1 |PC|
+|S003467941|Circuit 0002 FLRYA 1 B                |L  |L    |7158303190|Single Wire Seal Blue                   |                |                |      1 |PC|
+|S003467944|Circuit 0010 FLRYA 0.5 B              |L  |R    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467944|Circuit 0010 FLRYA 0.5 B              |L  |L    |7116568302|Terminal GET Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S003467944|Circuit 0010 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 105 |MM|
+|S003467945|Circuit 0011 FLRYA 0.5 B              |L  |R    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003467945|Circuit 0011 FLRYA 0.5 B              |L  |L    |7116568302|Terminal GET Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S003467945|Circuit 0011 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 095 |MM|
+|S003468008|Circuit 0062 FLRYA 1 B                |L  |R    |7114198402|Terminal 110 Male 2.8mm Unsealed        |                |                |      1 |PC|
+|S003468008|Circuit 0062 FLRYA 1 B                |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003468008|Circuit 0062 FLRYA 1 B                |L  |L    |7158303190|Single Wire Seal Blue                   |                |                |      1 |PC|
+|S003468008|Circuit 0062 FLRYA 1 B                |L  |     |C9706030  |LT Single Wire FLRYA 1 B                |                |                |  1 640 |MM|
+|S003468017|Circuit 0033 FLRYA 1.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003468017|Circuit 0033 FLRYA 1.5 B              |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003468017|Circuit 0033 FLRYA 1.5 B              |L  |     |C9706530  |LT Single Wire FLRYA 1.5 B              |                |                |    985 |MM|
+|S003468018|Circuit 0035 FLRYA 1.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003468018|Circuit 0035 FLRYA 1.5 B              |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003468018|Circuit 0035 FLRYA 1.5 B              |L  |     |C9706530  |LT Single Wire FLRYA 1.5 B              |                |                |    985 |MM|
+|S003468179|Circuit 0018 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003468179|Circuit 0018 FLRYB 2.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003468179|Circuit 0018 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    475 |MM|
+|S003468180|Circuit 0021 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003468180|Circuit 0021 FLRYB 2.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003468180|Circuit 0021 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    455 |MM|
+|S003468232|Circuit 0021 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    485 |MM|
+|S003468232|Circuit 0021 FLRYB 2.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003468232|Circuit 0021 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003468233|Circuit 0027 FLRYA 0.75 B             |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003468233|Circuit 0027 FLRYA 0.75 B             |L  |L    |7114198402|Terminal 110 Male 2.8mm Unsealed        |                |                |      1 |PC|
+|S003468233|Circuit 0027 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    895 |MM|
+|S003468238|Circuit 0027 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003468238|Circuit 0027 FLRYB 2.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003468238|Circuit 0027 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    570 |MM|
+|S003468272|Circuit 0026 FLRYA 0.75 B             |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003468272|Circuit 0026 FLRYA 0.75 B             |L  |L    |7114198402|Terminal 110 Male 2.8mm Unsealed        |                |                |      1 |PC|
+|S003468272|Circuit 0026 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    920 |MM|
+|S003469883|Circuit 0018 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    455 |MM|
+|S003469883|Circuit 0018 FLRYB 2.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003469883|Circuit 0018 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003470699|Circuit 0001 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    490 |MM|
+|S003470699|Circuit 0001 FLRYB 2.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003470699|Circuit 0001 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003484937|Circuit 0115 FLRYA 0.75 B/G           |L  |     |C9704036  |LT Single Wire FLRYA 0.75 B/G           |                |                |  2 480 |MM|
+|S003484937|Circuit 0115 FLRYA 0.75 B/G           |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003484937|Circuit 0115 FLRYA 0.75 B/G           |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003484937|Circuit 0115 FLRYA 0.75 B/G           |L  |L    |7157339660|Single Wire Seal Green                  |                |                |      1 |PC|
+|S003484954|Circuit 0102 FLRYA 0.5 G              |L  |     |C9703960  |LT Single Wire FLRYA 0.5 G              |                |                |  2 275 |MM|
+|S003484954|Circuit 0102 FLRYA 0.5 G              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003484954|Circuit 0102 FLRYA 0.5 G              |L  |R    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003484954|Circuit 0102 FLRYA 0.5 G              |L  |L    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003484955|Circuit 0111 FLRYA 0.5 B/Y            |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003484955|Circuit 0111 FLRYA 0.5 B/Y            |L  |R    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003484955|Circuit 0111 FLRYA 0.5 B/Y            |L  |L    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003484955|Circuit 0111 FLRYA 0.5 B/Y            |L  |     |C9703937  |LT Single Wire FLRYA 0.5 B/Y            |                |                |  2 275 |MM|
+|S003485120|Circuit 0046 FLRYA 0.5 B/G            |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003485120|Circuit 0046 FLRYA 0.5 B/G            |L  |L    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485120|Circuit 0046 FLRYA 0.5 B/G            |L  |     |C9703936  |LT Single Wire FLRYA 0.5 B/G            |                |                |    355 |MM|
+|S003485121|Circuit 0049 FLRYA 0.75 B/G           |L  |     |C9704036  |LT Single Wire FLRYA 0.75 B/G           |                |                |  2 500 |MM|
+|S003485121|Circuit 0049 FLRYA 0.75 B/G           |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003485121|Circuit 0049 FLRYA 0.75 B/G           |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003485121|Circuit 0049 FLRYA 0.75 B/G           |L  |L    |7157339660|Single Wire Seal Green                  |                |                |      1 |PC|
+|S003485122|Circuit 0094 FLRYA 0.75 B/G           |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003485122|Circuit 0094 FLRYA 0.75 B/G           |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003485122|Circuit 0094 FLRYA 0.75 B/G           |L  |L    |7157339660|Single Wire Seal Green                  |                |                |      1 |PC|
+|S003485122|Circuit 0094 FLRYA 0.75 B/G           |L  |     |C9704036  |LT Single Wire FLRYA 0.75 B/G           |                |                |    565 |MM|
+|S003485125|Circuit 0030 FLRYA 0.5 Y              |L  |     |C9703970  |LT Single Wire FLRYA 0.5 Y              |                |                |  2 350 |MM|
+|S003485125|Circuit 0030 FLRYA 0.5 Y              |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003485125|Circuit 0030 FLRYA 0.5 Y              |L  |R    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485125|Circuit 0030 FLRYA 0.5 Y              |L  |L    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003485126|Circuit 0032 FLRYA 0.5 B/Y            |L  |L    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003485126|Circuit 0032 FLRYA 0.5 B/Y            |L  |R    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485126|Circuit 0032 FLRYA 0.5 B/Y            |L  |L    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S003485126|Circuit 0032 FLRYA 0.5 B/Y            |L  |     |C9703937  |LT Single Wire FLRYA 0.5 B/Y            |                |                |  2 350 |MM|
+|S003485127|Circuit 0036 FLRYA 1.5 BR/L           |L  |     |C9706589  |LT Single Wire FLRYA 1.5 BR/L           |                |                |  2 405 |MM|
+|S003485127|Circuit 0036 FLRYA 1.5 BR/L           |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003485127|Circuit 0036 FLRYA 1.5 BR/L           |L  |R    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485128|Circuit 0038 FLRYA 1.5 BR/W           |L  |     |C9706584  |LT Single Wire FLRYA 1.5 BR/W           |                |                |  2 405 |MM|
+|S003485128|Circuit 0038 FLRYA 1.5 BR/W           |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003485128|Circuit 0038 FLRYA 1.5 BR/W           |L  |R    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485145|Circuit 0095 FLRYA 0.5 GY/BR          |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003485145|Circuit 0095 FLRYA 0.5 GY/BR          |L  |L    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485145|Circuit 0095 FLRYA 0.5 GY/BR          |L  |     |C97039K5  |LT Single Wire FLRYA 0.5 GY/BR          |                |                |    455 |MM|
+|S003485146|Circuit 0080 FLRYA 0.5 L/G            |L  |     |C9703996  |LT Single Wire FLRYA 0.5 L/G            |                |                |  3 500 |MM|
+|S003485146|Circuit 0080 FLRYA 0.5 L/G            |L  |L    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485146|Circuit 0080 FLRYA 0.5 L/G            |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003485147|Circuit 0097 FLRYA 0.5 L/G            |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003485147|Circuit 0097 FLRYA 0.5 L/G            |L  |L    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485147|Circuit 0097 FLRYA 0.5 L/G            |L  |     |C9703996  |LT Single Wire FLRYA 0.5 L/G            |                |                |    425 |MM|
+|S003485148|Circuit 0052 FLRYA 1.5 L/W            |L  |     |C9706594  |LT Single Wire FLRYA 1.5 L/W            |                |                |    830 |MM|
+|S003485148|Circuit 0052 FLRYA 1.5 L/W            |L  |L    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485148|Circuit 0052 FLRYA 1.5 L/W            |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003485149|Circuit 0055 FLRYA 1.5 W              |L  |     |C9706540  |LT Single Wire FLRYA 1.5 W              |                |                |    830 |MM|
+|S003485149|Circuit 0055 FLRYA 1.5 W              |L  |L    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485149|Circuit 0055 FLRYA 1.5 W              |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003485150|Circuit 0058 FLRYA 1.5 BR/W           |L  |     |C9706584  |LT Single Wire FLRYA 1.5 BR/W           |                |                |  3 960 |MM|
+|S003485150|Circuit 0058 FLRYA 1.5 BR/W           |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003485150|Circuit 0058 FLRYA 1.5 BR/W           |L  |R    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485151|Circuit 0061 FLRYA 1.5 V/GY           |L  |     |C97065G5  |LT Single Wire FLRYA 1.5 V/GY           |                |                |  3 960 |MM|
+|S003485151|Circuit 0061 FLRYA 1.5 V/GY           |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003485151|Circuit 0061 FLRYA 1.5 V/GY           |L  |R    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485152|Circuit 0085 FLRYA 0.35 GY/O          |L  |R    |7116472002|Terminal YESC Female 0.64mm Unsealed    |                |                |      1 |PC|
+|S003485152|Circuit 0085 FLRYA 0.35 GY/O          |L  |L    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485152|Circuit 0085 FLRYA 0.35 GY/O          |L  |     |C9706921  |LT Single Wire FLRYA 0.35 GY/O          |                |                |    810 |MM|
+|S003485153|Circuit 0086 FLRYA 0.35 V/O           |L  |R    |7116472002|Terminal YESC Female 0.64mm Unsealed    |                |                |      1 |PC|
+|S003485153|Circuit 0086 FLRYA 0.35 V/O           |L  |L    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485153|Circuit 0086 FLRYA 0.35 V/O           |L  |     |C97069E3  |LT Single Wire FLRYA 0.35 V/O           |                |                |    810 |MM|
+|S003485154|Circuit 0069 FLRYB 2.5 B/G            |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003485154|Circuit 0069 FLRYB 2.5 B/G            |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003485154|Circuit 0069 FLRYB 2.5 B/G            |L  |     |H2807036  |LT Single Wire FLRYB 2.5 B/G            |                |                |    720 |MM|
+|S003485155|Circuit 0084 FLRYB 2.5 G/R            |L  |     |H2807065  |LT Single Wire FLRYB 2.5 G/R            |                |                |    720 |MM|
+|S003485155|Circuit 0084 FLRYB 2.5 G/R            |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003485155|Circuit 0084 FLRYB 2.5 G/R            |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S003485156|Circuit 0088 FLRYA 0.5 GY/L           |L  |     |C9703911  |LT Single Wire FLRYA 0.5 GY/L           |                |                |    715 |MM|
+|S003485156|Circuit 0088 FLRYA 0.5 GY/L           |L  |L    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003485156|Circuit 0088 FLRYA 0.5 GY/L           |L  |R    |7116472102|Terminal YESC Female 0.64mm Sealed/Unsea|                |                |      1 |PC|
+|S003485157|Circuit 0090 FLRYA 0.5 GY/O           |L  |     |C9703921  |LT Single Wire FLRYA 0.5 GY/O           |                |                |  3 790 |MM|
+|S003485157|Circuit 0090 FLRYA 0.5 GY/O           |L  |L    |7116472102|Terminal YESC Female 0.64mm Sealed/Unsea|                |                |      1 |PC|
+|S003485157|Circuit 0090 FLRYA 0.5 GY/O           |L  |R    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S003494360|Circuit 0014 M125SFD 1 B              |L  |L    |7116427102|Terminal YESC Kaizen Female 2.8mm Unseal|L               |                |      1 |PC|
+|S003494360|Circuit 0014 M125SFD 1 B              |L  |     |AU306030  |LT Single Wire M125SFD 1 B              |                |                |  2 390 |MM|
+|S003494360|Circuit 0014 M125SFD 1 B              |X  |     |          |                                        |KS74010000      |R               |      1 |PC|
+|S003502531|Circuit 0008 M125SFD 0.75 B           |L  |     |AU304030  |LT Single Wire M125SFD 0.75 B           |                |                |  2 390 |MM|
+|S003502531|Circuit 0008 M125SFD 0.75 B           |L  |L    |7116427102|Terminal YESC Kaizen Female 2.8mm Unseal|L               |                |      1 |PC|
+|S003502531|Circuit 0008 M125SFD 0.75 B           |X  |     |          |                                        |KS74010000      |R               |      1 |PC|
+|S003651295|Circuit 0025 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |    640 |MM|
+|S003651295|Circuit 0025 FLRYA 0.5 B              |L  |L    |7114700102|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S003651295|Circuit 0025 FLRYA 0.5 B              |L  |R    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003653052|Circuit 0002 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |  1 115 |MM|
+|S003653052|Circuit 0002 FLRYB 2.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003653052|Circuit 0002 FLRYB 2.5 B              |L  |R    |7116820302|Terminal DCS-1 Female 2.8mm Sealed      |                |                |      1 |PC|
+|S003653053|Circuit 0003 FLRYA 0.5 B              |L  |R    |7114654602|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S003653053|Circuit 0003 FLRYA 0.5 B              |L  |L    |7116568302|Terminal GET Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S003653053|Circuit 0003 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 115 |MM|
+|S003653245|Circuit 0011 FLRYB 1 B                |L  |R    |7114198402|Terminal 110 Male 2.8mm Unsealed        |                |                |      1 |PC|
+|S003653245|Circuit 0011 FLRYB 1 B                |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003653245|Circuit 0011 FLRYB 1 B                |L  |L    |7158303190|Single Wire Seal Blue                   |                |                |      1 |PC|
+|S003653245|Circuit 0011 FLRYB 1 B                |L  |     |H2806030  |LT Single Wire FLRYB 1 B                |                |                |  1 890 |MM|
+|S003653246|Circuit 0011 FLRYB 1 B                |L  |R    |7114198402|Terminal 110 Male 2.8mm Unsealed        |                |                |      1 |PC|
+|S003653246|Circuit 0011 FLRYB 1 B                |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S003653246|Circuit 0011 FLRYB 1 B                |L  |L    |7158303190|Single Wire Seal Blue                   |                |                |      1 |PC|
+|S003653246|Circuit 0011 FLRYB 1 B                |L  |     |H2806030  |LT Single Wire FLRYB 1 B                |                |                |  1 880 |MM|
+|S003782963|Circuit 0028 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003782963|Circuit 0028 FLRYB 2.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003782963|Circuit 0028 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    740 |MM|
+|S003838988|Circuit 0021 FLRYB 2.5 B              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S003838988|Circuit 0021 FLRYB 2.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S003838988|Circuit 0021 FLRYB 2.5 B              |L  |     |H2807030  |LT Single Wire FLRYB 2.5 B              |                |                |    430 |MM|
+|S004008956|Circuit 0014 FLRYA 0.5 B              |L  |R    |7114677002|Terminal MX 150 Male 1.5mm Sealed       |                |                |      1 |PC|
+|S004008956|Circuit 0014 FLRYA 0.5 B              |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S004008956|Circuit 0014 FLRYA 0.5 B              |L  |R    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S004008956|Circuit 0014 FLRYA 0.5 B              |L  |     |C9703930  |LT Single Wire FLRYA 0.5 B              |                |                |  1 300 |MM|
+|S004081581|Circuit 0054 FLRYA 1 B                |X  |     |          |                                        |KS74780150      |L               |      1 |PC|
+|S004081581|Circuit 0054 FLRYA 1 B                |L  |R    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S004081581|Circuit 0054 FLRYA 1 B                |L  |R    |7157339660|Single Wire Seal Green                  |                |                |      1 |PC|
+|S004081581|Circuit 0054 FLRYA 1 B                |L  |     |C9706030  |LT Single Wire FLRYA 1 B                |                |                |  1 550 |MM|
+|S004084406|Circuit 0030 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    635 |MM|
+|S004084406|Circuit 0030 FLRYA 0.75 B             |L  |L    |7114198402|Terminal 110 Male 2.8mm Unsealed        |                |                |      1 |PC|
+|S004084406|Circuit 0030 FLRYA 0.75 B             |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S004127383|Circuit 0070 FLRYB 2.5 B/G            |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S004127383|Circuit 0070 FLRYB 2.5 B/G            |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S004127383|Circuit 0070 FLRYB 2.5 B/G            |L  |     |H2807036  |LT Single Wire FLRYB 2.5 B/G            |                |                |    800 |MM|
+|S004127384|Circuit 0107 FLRYB 2.5 V/R            |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S004127384|Circuit 0107 FLRYB 2.5 V/R            |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S004127384|Circuit 0107 FLRYB 2.5 V/R            |L  |     |H28070G4  |LT Single Wire FLRYB 2.5 V/R            |                |                |    800 |MM|
+|S004127391|Circuit 0100 FLRYA 0.5 B/G            |L  |     |C9703936  |LT Single Wire FLRYA 0.5 B/G            |                |                |  2 100 |MM|
+|S004127391|Circuit 0100 FLRYA 0.5 B/G            |L  |L    |7116697102|Terminal MX 150 Female 1.5              |                |                |      1 |PC|
+|S004127391|Circuit 0100 FLRYA 0.5 B/G            |L  |R    |7116410202|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S004127391|Circuit 0100 FLRYA 0.5 B/G            |L  |R    |7157337950|Single Wire Seal Pink                   |                |                |      1 |PC|
+|S004127406|Circuit 0125 FLRYB 4 B/Y              |L  |     |H2806837  |LT Single Wire FLRYB 4 B/Y              |                |                |    365 |MM|
+|S004127406|Circuit 0125 FLRYB 4 B/Y              |L  |L    |7116411302|Terminal YESC Female 2.8mm Unsealed     |                |                |      1 |PC|
+|S004127406|Circuit 0125 FLRYB 4 B/Y              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S004127411|Circuit 0161 FLRYB 4 V/R              |L  |     |H28068G4  |LT Single Wire FLRYB 4 V/R              |                |                |    430 |MM|
+|S004127411|Circuit 0161 FLRYB 4 V/R              |L  |L    |7116411302|Terminal YESC Female 2.8mm Unsealed     |                |                |      1 |PC|
+|S004127411|Circuit 0161 FLRYB 4 V/R              |X  |     |          |                                        |KS74090013      |R               |      1 |PC|
+|S004127451|Circuit 0036 FLRYA 1.5 BR/L           |L  |L    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S004127451|Circuit 0036 FLRYA 1.5 BR/L           |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S004127451|Circuit 0036 FLRYA 1.5 BR/L           |L  |     |C9706589  |LT Single Wire FLRYA 1.5 BR/L           |                |                |  2 815 |MM|
+|S004127466|Circuit 0155 FLRYB 6 GY/R             |L  |     |H2806710  |LT Single Wire FLRYB 6 GY/R             |                |                |  1 550 |MM|
+|S004127466|Circuit 0155 FLRYB 6 GY/R             |X  |     |          |                                        |KS74090013      |L               |      1 |PC|
+|S004127466|Circuit 0155 FLRYB 6 GY/R             |L  |R    |7116412402|Terminal YESC Female 6.3mm Unsealed     |                |                |      1 |PC|
+|S004127467|Circuit 0162 FLRYB 6 V/R              |L  |     |H28067G4  |LT Single Wire FLRYB 6 V/R              |                |                |  1 600 |MM|
+|S004127467|Circuit 0162 FLRYB 6 V/R              |L  |L    |7116412402|Terminal YESC Female 6.3mm Unsealed     |                |                |      1 |PC|
+|S004127467|Circuit 0162 FLRYB 6 V/R              |X  |     |          |                                        |KS74090013      |R               |      1 |PC|
+|S004127491|Circuit 0035 FLRYA 1.5 BR/Y           |L  |     |C9706587  |LT Single Wire FLRYA 1.5 BR/Y           |                |                |  1 495 |MM|
+|S004127491|Circuit 0035 FLRYA 1.5 BR/Y           |L  |L    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S004127491|Circuit 0035 FLRYA 1.5 BR/Y           |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S004127492|Circuit 0037 FLRYA 1.5 W/G            |L  |     |C9706546  |LT Single Wire FLRYA 1.5 W/G            |                |                |  1 495 |MM|
+|S004127492|Circuit 0037 FLRYA 1.5 W/G            |L  |L    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S004127492|Circuit 0037 FLRYA 1.5 W/G            |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S004135256|Circuit 0019 FLRYB 6 B                |L  |     |H2806730  |LT Single Wire FLRYB 6 B                |                |                |    515 |MM|
+|S004135256|Circuit 0019 FLRYB 6 B                |X  |     |          |                                        |KS74780130      |L               |      1 |PC|
+|S004135256|Circuit 0019 FLRYB 6 B                |X  |     |          |                                        |KS74780130      |R               |      1 |PC|
+|S004142379|Circuit 0048 A39YA 0.5 V/O            |L  |     |AW2039E3  |LT Single Wire A39YA 0.5 V/O            |                |                |    335 |MM|
+|S004142379|Circuit 0048 A39YA 0.5 V/O            |L  |L    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S004142379|Circuit 0048 A39YA 0.5 V/O            |L  |R    |7116390402|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S004551710|Circuit 0079 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    500 |MM|
+|S004551710|Circuit 0079 FLRYA 0.75 B             |L  |L    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S004551710|Circuit 0079 FLRYA 0.75 B             |X  |     |          |                                        |KS74780130      |R               |      1 |PC|
+|S004551886|Circuit 0077 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    215 |MM|
+|S004551886|Circuit 0077 FLRYA 0.75 B             |L  |L    |7116820202|Terminal 110 Female 2.8mm Unsealed      |                |                |      1 |PC|
+|S004551886|Circuit 0077 FLRYA 0.75 B             |X  |     |          |                                        |KS74780130      |R               |      1 |PC|
+|S004551905|Circuit 0087 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |  1 695 |MM|
+|S004551905|Circuit 0087 FLRYA 0.75 B             |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S004551905|Circuit 0087 FLRYA 0.75 B             |X  |     |          |                                        |KS74780130      |R               |      1 |PC|
+|S004551905|Circuit 0087 FLRYA 0.75 B             |L  |L    |7157339660|Single Wire Seal Green                  |                |                |      1 |PC|
+|S004551912|Circuit 0078 FLRYA 1.5 B              |L  |     |C9706530  |LT Single Wire FLRYA 1.5 B              |                |                |    900 |MM|
+|S004551912|Circuit 0078 FLRYA 1.5 B              |L  |L    |7114198302|Terminal Other Male 2.8mm Unsealed      |                |                |      1 |PC|
+|S004551912|Circuit 0078 FLRYA 1.5 B              |X  |     |          |                                        |KS74780130      |R               |      1 |PC|
+|S004554320|Circuit 0027 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |  1 145 |MM|
+|S004554320|Circuit 0027 FLRYA 0.75 B             |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S004554320|Circuit 0027 FLRYA 0.75 B             |X  |     |          |                                        |KS74780130      |R               |      1 |PC|
+|S004554320|Circuit 0027 FLRYA 0.75 B             |L  |L    |7158303190|Single Wire Seal Blue                   |                |                |      1 |PC|
+|S004554332|Circuit 0005 FLRYA 0.75 B             |X  |     |          |                                        |KS74780130      |R               |      1 |PC|
+|S004554332|Circuit 0005 FLRYA 0.75 B             |L  |L    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S004554332|Circuit 0005 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    720 |MM|
+|S004554334|Circuit 0012 FLRYA 1 B                |L  |R    |7114198402|Terminal 110 Male 2.8mm Unsealed        |                |                |      1 |PC|
+|S004554334|Circuit 0012 FLRYA 1 B                |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S004554334|Circuit 0012 FLRYA 1 B                |L  |L    |7158303190|Single Wire Seal Blue                   |                |                |      1 |PC|
+|S004554334|Circuit 0012 FLRYA 1 B                |L  |     |C9706030  |LT Single Wire FLRYA 1 B                |                |                |  1 850 |MM|
+|S004554347|Circuit 0004 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |  2 120 |MM|
+|S004554347|Circuit 0004 FLRYA 0.75 B             |L  |L    |7114666902|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S004554347|Circuit 0004 FLRYA 0.75 B             |L  |R    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S004554347|Circuit 0004 FLRYA 0.75 B             |L  |R    |7157339660|Single Wire Seal Green                  |                |                |      1 |PC|
+|S004554348|Circuit 0009 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |    670 |MM|
+|S004554348|Circuit 0009 FLRYA 0.75 B             |L  |L    |7114666902|Terminal Generation Y Male 0.64mm Unseal|                |                |      1 |PC|
+|S004554348|Circuit 0009 FLRYA 0.75 B             |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S004554350|Circuit 0003 FLRYA 1 B                |L  |     |C9706030  |LT Single Wire FLRYA 1 B                |                |                |    170 |MM|
+|S004554350|Circuit 0003 FLRYA 1 B                |X  |     |          |                                        |KS74780130      |L               |      1 |PC|
+|S004554350|Circuit 0003 FLRYA 1 B                |X  |     |          |                                        |KS74780130      |R               |      1 |PC|
+|S004554352|Circuit 0055 FLRYA 0.75 B             |L  |     |C9704030  |LT Single Wire FLRYA 0.75 B             |                |                |  1 405 |MM|
+|S004554352|Circuit 0055 FLRYA 0.75 B             |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S004554352|Circuit 0055 FLRYA 0.75 B             |X  |     |          |                                        |KS74780130      |R               |      1 |PC|
+|S004554352|Circuit 0055 FLRYA 0.75 B             |L  |L    |7157339660|Single Wire Seal Green                  |                |                |      1 |PC|
+|S005116923|Circuit 0140 FLRYA 0.75 B/G           |L  |     |C9704036  |LT Single Wire FLRYA 0.75 B/G           |                |                |    320 |MM|
+|S005116923|Circuit 0140 FLRYA 0.75 B/G           |L  |L    |7114411102|Terminal YESC Male 2.8mm Unsealed       |                |                |      1 |PC|
+|S005116923|Circuit 0140 FLRYA 0.75 B/G           |L  |R    |7009532202|Eyelet Terminal 0.6mm                   |                |                |      1 |PC|
+|S005116925|Circuit 0127 FLRYB 6 B/Y              |L  |     |H2806737  |LT Single Wire FLRYB 6 B/Y              |                |                |    395 |MM|
+|S005116925|Circuit 0127 FLRYB 6 B/Y              |L  |L    |7009521202|Eyelet Terminal 6.4mm                   |                |                |      1 |PC|
+|S005116925|Circuit 0127 FLRYB 6 B/Y              |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S005244561|Circuit 0009 M125SFD 0.5 B            |L  |L    |7116410002|Terminal YESC Female 1.5mm Unsealed     |                |                |      1 |PC|
+|S005244561|Circuit 0009 M125SFD 0.5 B            |L  |     |AU303930  |LT Single Wire M125SFD 0.5 B            |                |                |  2 390 |MM|
+|S005244561|Circuit 0009 M125SFD 0.5 B            |X  |     |          |                                        |KS74010000      |R               |      1 |PC|
+|S005244582|Circuit 0010 M125SFD 0.75 B           |L  |L    |7116410102|Terminal YESC Female 1.5mm Unsealed     |                |                |      1 |PC|
+|S005244582|Circuit 0010 M125SFD 0.75 B           |L  |     |AU304030  |LT Single Wire M125SFD 0.75 B           |                |                |  2 390 |MM|
+|S005244582|Circuit 0010 M125SFD 0.75 B           |X  |     |          |                                        |KS74010000      |R               |      1 |PC|
+|S005435261|Circuit 0121 FLRYA 1 GY/BR            |L  |     |C97060K5  |LT Single Wire FLRYA 1 GY/BR            |                |                |  2 150 |MM|
+|S005435261|Circuit 0121 FLRYA 1 GY/BR            |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S005435261|Circuit 0121 FLRYA 1 GY/BR            |L  |R    |7114411102|Terminal YESC Male 2.8mm Unsealed       |                |                |      1 |PC|
+|S005435292|Circuit 0122 FLRYA 1 GY/L             |L  |     |C9706011  |LT Single Wire FLRYA 1 GY/L             |                |                |  2 150 |MM|
+|S005435292|Circuit 0122 FLRYA 1 GY/L             |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S005435292|Circuit 0122 FLRYA 1 GY/L             |L  |R    |7114411102|Terminal YESC Male 2.8mm Unsealed       |                |                |      1 |PC|
+|S005438550|Circuit 0036 FLRYA 1.5 BR/L           |L  |     |C9706589  |LT Single Wire FLRYA 1.5 BR/L           |                |                |  2 040 |MM|
+|S005438550|Circuit 0036 FLRYA 1.5 BR/L           |L  |L    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S005438550|Circuit 0036 FLRYA 1.5 BR/L           |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S005439039|Circuit 0166 FLRYA 1 W/O              |L  |     |C97060E1  |LT Single Wire FLRYA 1 W/O              |                |                |  2 150 |MM|
+|S005439039|Circuit 0166 FLRYA 1 W/O              |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S005439039|Circuit 0166 FLRYA 1 W/O              |L  |R    |7114411102|Terminal YESC Male 2.8mm Unsealed       |                |                |      1 |PC|
+|S005439042|Circuit 0147 FLRYB 2.5 G/R            |L  |     |H2807065  |LT Single Wire FLRYB 2.5 G/R            |                |                |  2 150 |MM|
+|S005439042|Circuit 0147 FLRYB 2.5 G/R            |L  |L    |7116411202|Terminal YESC Female 2.8mm Unsealed     |                |                |      1 |PC|
+|S005439042|Circuit 0147 FLRYB 2.5 G/R            |L  |R    |7114411202|Terminal YESC Male 2.8mm Unsealed       |                |                |      1 |PC|
+|S005439043|Circuit 0123 FLRYA 0.75 L/W           |L  |R    |7114411102|Terminal YESC Male 2.8mm Unsealed       |                |                |      1 |PC|
+|S005439043|Circuit 0123 FLRYA 0.75 L/W           |L  |L    |7116478102|Terminal YESC Kaizen Female 1.5mm Unseal|                |                |      1 |PC|
+|S005439043|Circuit 0123 FLRYA 0.75 L/W           |L  |     |C9704094  |LT Single Wire FLRYA 0.75 L/W           |                |                |    710 |MM|
+|S005439045|Circuit 0115 FLRYA 0.5 Y/V            |L  |R    |7114631502|Terminal YESC Male 1.5mm Unsealed       |                |                |      1 |PC|
+|S005439045|Circuit 0115 FLRYA 0.5 Y/V            |L  |L    |7116478002|Terminal YESC Kaizen Female 1.5mm Unseal|                |                |      1 |PC|
+|S005439045|Circuit 0115 FLRYA 0.5 Y/V            |L  |     |C97039G1  |LT Single Wire FLRYA 0.5 Y/V            |                |                |    715 |MM|
+|S005439560|Circuit 0054 FLRYA 1.5 W              |L  |     |C9706540  |LT Single Wire FLRYA 1.5 W              |                |                |  3 925 |MM|
+|S005439560|Circuit 0054 FLRYA 1.5 W              |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S005439560|Circuit 0054 FLRYA 1.5 W              |L  |R    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S005439632|Circuit 0038 FLRYA 1.5 BR/W           |L  |     |C9706584  |LT Single Wire FLRYA 1.5 BR/W           |                |                |  2 040 |MM|
+|S005439632|Circuit 0038 FLRYA 1.5 BR/W           |L  |L    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S005439632|Circuit 0038 FLRYA 1.5 BR/W           |L  |R    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S005439643|Circuit 0051 FLRYA 1.5 L/W            |L  |     |C9706594  |LT Single Wire FLRYA 1.5 L/W            |                |                |  3 925 |MM|
+|S005439643|Circuit 0051 FLRYA 1.5 L/W            |L  |L    |7116427202|Terminal YESC Kaizen Female 2.8mm Unseal|                |                |      1 |PC|
+|S005439643|Circuit 0051 FLRYA 1.5 L/W            |L  |R    |7116390302|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S005480741|Circuit 0041 FLRYA 0.75 Y/V           |L  |     |C97040G1  |LT Single Wire FLRYA 0.75 Y/V           |                |                |    455 |MM|
+|S005480741|Circuit 0041 FLRYA 0.75 Y/V           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S005480741|Circuit 0041 FLRYA 0.75 Y/V           |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S005483532|Circuit 0042 FLRYA 0.75 Y/V           |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S005483532|Circuit 0042 FLRYA 0.75 Y/V           |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S005483532|Circuit 0042 FLRYA 0.75 Y/V           |L  |L    |7157339660|Single Wire Seal Green                  |                |                |      1 |PC|
+|S005483532|Circuit 0042 FLRYA 0.75 Y/V           |L  |     |C97040G1  |LT Single Wire FLRYA 0.75 Y/V           |                |                |    700 |MM|
+|S005483538|Circuit 0043 FLRYA 0.75 Y/V           |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S005483538|Circuit 0043 FLRYA 0.75 Y/V           |L  |L    |7116410302|Terminal YESC Female 1.5mm Sealed       |                |                |      1 |PC|
+|S005483538|Circuit 0043 FLRYA 0.75 Y/V           |L  |L    |7157339660|Single Wire Seal Green                  |                |                |      1 |PC|
+|S005483538|Circuit 0043 FLRYA 0.75 Y/V           |L  |     |C97040G1  |LT Single Wire FLRYA 0.75 Y/V           |                |                |  2 370 |MM|
+|S005981283|Circuit 0040 FLRYA 0.75 Y/V           |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S005981283|Circuit 0040 FLRYA 0.75 Y/V           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S005981283|Circuit 0040 FLRYA 0.75 Y/V           |L  |     |C97040G1  |LT Single Wire FLRYA 0.75 Y/V           |                |                |    910 |MM|
+|S006126523|Circuit 0066 A39YA 0.75 V/W           |L  |     |AW204033  |LT Single Wire A39YA 0.75 V/W           |                |                |  6 365 |MM|
+|S006126523|Circuit 0066 A39YA 0.75 V/W           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006126523|Circuit 0066 A39YA 0.75 V/W           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006126524|Circuit 0066 A39YA 0.75 W/O           |L  |     |AW2040E1  |LT Single Wire A39YA 0.75 W/O           |                |                |  6 365 |MM|
+|S006126524|Circuit 0066 A39YA 0.75 W/O           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006126524|Circuit 0066 A39YA 0.75 W/O           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006126728|Circuit 0066 A39YA 0.75 V/W           |L  |     |AW204033  |LT Single Wire A39YA 0.75 V/W           |                |                |  6 965 |MM|
+|S006126728|Circuit 0066 A39YA 0.75 V/W           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006126728|Circuit 0066 A39YA 0.75 V/W           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006126729|Circuit 0066 A39YA 0.75 W/O           |L  |     |AW2040E1  |LT Single Wire A39YA 0.75 W/O           |                |                |  6 965 |MM|
+|S006126729|Circuit 0066 A39YA 0.75 W/O           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006126729|Circuit 0066 A39YA 0.75 W/O           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006126849|Circuit 0066 A39YA 0.75 V/W           |L  |     |AW204033  |LT Single Wire A39YA 0.75 V/W           |                |                |  7 475 |MM|
+|S006126849|Circuit 0066 A39YA 0.75 V/W           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006126849|Circuit 0066 A39YA 0.75 V/W           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006126951|Circuit 0066 A39YA 0.75 W/O           |L  |     |AW2040E1  |LT Single Wire A39YA 0.75 W/O           |                |                |  7 475 |MM|
+|S006126951|Circuit 0066 A39YA 0.75 W/O           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006126951|Circuit 0066 A39YA 0.75 W/O           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006127776|Circuit 0066 A39YA 0.75 V/W           |L  |     |AW204033  |LT Single Wire A39YA 0.75 V/W           |                |                |  7 165 |MM|
+|S006127776|Circuit 0066 A39YA 0.75 V/W           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006127776|Circuit 0066 A39YA 0.75 V/W           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006127806|Circuit 0066 A39YA 0.75 W/O           |L  |     |AW2040E1  |LT Single Wire A39YA 0.75 W/O           |                |                |  7 165 |MM|
+|S006127806|Circuit 0066 A39YA 0.75 W/O           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006127806|Circuit 0066 A39YA 0.75 W/O           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006206669|Circuit 0066 A39YA 0.75 V/W           |L  |     |AW204033  |LT Single Wire A39YA 0.75 V/W           |                |                |  8 180 |MM|
+|S006206669|Circuit 0066 A39YA 0.75 V/W           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006206669|Circuit 0066 A39YA 0.75 V/W           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006206948|Circuit 0066 A39YA 0.75 W/O           |L  |     |AW2040E1  |LT Single Wire A39YA 0.75 W/O           |                |                |  8 180 |MM|
+|S006206948|Circuit 0066 A39YA 0.75 W/O           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006206948|Circuit 0066 A39YA 0.75 W/O           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006207851|Circuit 0066 A39YA 0.75 V/W           |L  |     |AW204033  |LT Single Wire A39YA 0.75 V/W           |                |                |  7 965 |MM|
+|S006207851|Circuit 0066 A39YA 0.75 V/W           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006207851|Circuit 0066 A39YA 0.75 V/W           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006207852|Circuit 0066 A39YA 0.75 W/O           |L  |     |AW2040E1  |LT Single Wire A39YA 0.75 W/O           |                |                |  7 965 |MM|
+|S006207852|Circuit 0066 A39YA 0.75 W/O           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006207852|Circuit 0066 A39YA 0.75 W/O           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006208210|Circuit 0066 A39YA 0.75 V/W           |L  |     |AW204033  |LT Single Wire A39YA 0.75 V/W           |                |                |  9 215 |MM|
+|S006208210|Circuit 0066 A39YA 0.75 V/W           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006208210|Circuit 0066 A39YA 0.75 V/W           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006208241|Circuit 0066 A39YA 0.75 W/O           |L  |     |AW2040E1  |LT Single Wire A39YA 0.75 W/O           |                |                |  9 215 |MM|
+|S006208241|Circuit 0066 A39YA 0.75 W/O           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006208241|Circuit 0066 A39YA 0.75 W/O           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006212592|Circuit 0066 A39YA 0.75 V/W           |L  |     |AW204033  |LT Single Wire A39YA 0.75 V/W           |                |                |  7 700 |MM|
+|S006212592|Circuit 0066 A39YA 0.75 V/W           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006212592|Circuit 0066 A39YA 0.75 V/W           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006212593|Circuit 0066 A39YA 0.75 W/O           |L  |     |AW2040E1  |LT Single Wire A39YA 0.75 W/O           |                |                |  7 700 |MM|
+|S006212593|Circuit 0066 A39YA 0.75 W/O           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006212593|Circuit 0066 A39YA 0.75 W/O           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006212888|Circuit 0066 A39YA 0.75 V/W           |L  |     |AW204033  |LT Single Wire A39YA 0.75 V/W           |                |                |  9 415 |MM|
+|S006212888|Circuit 0066 A39YA 0.75 V/W           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006212888|Circuit 0066 A39YA 0.75 V/W           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006212906|Circuit 0066 A39YA 0.75 W/O           |L  |     |AW2040E1  |LT Single Wire A39YA 0.75 W/O           |                |                |  9 415 |MM|
+|S006212906|Circuit 0066 A39YA 0.75 W/O           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006212906|Circuit 0066 A39YA 0.75 W/O           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006213014|Circuit 0066 A39YA 0.75 V/W           |L  |     |AW204033  |LT Single Wire A39YA 0.75 V/W           |                |                |  9 680 |MM|
+|S006213014|Circuit 0066 A39YA 0.75 V/W           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006213014|Circuit 0066 A39YA 0.75 V/W           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006213015|Circuit 0066 A39YA 0.75 W/O           |L  |     |AW2040E1  |LT Single Wire A39YA 0.75 W/O           |                |                |  9 680 |MM|
+|S006213015|Circuit 0066 A39YA 0.75 W/O           |L  |L    |7116390502|Terminal MX 150 Female 1.5mm Sealed     |                |                |      1 |PC|
+|S006213015|Circuit 0066 A39YA 0.75 W/O           |L  |R    |7114470802|Terminal MX 150 Male 1.5mm Unsealed     |                |                |      1 |PC|
+|S006379170|Circuit 0022 FLRYA 0.35 W/R           |L  |     |C9706945  |LT Single Wire FLRYA 0.35 W/R           |                |                |    255 |MM|
+|S006379170|Circuit 0022 FLRYA 0.35 W/R           |L  |L    |7116731002|Terminal MQS Female 0.64mm Unsealed     |                |                |      1 |PC|
+|S006379170|Circuit 0022 FLRYA 0.35 W/R           |X  |     |          |                                        |KS74780150      |R               |      1 |PC|
+|S006417726|Circuit 0219 FLRYA 0.35 G/V           |L  |     |C9706966  |LT Single Wire FLRYA 0.35 G/V           |                |                |    210 |MM|
+|S006417726|Circuit 0219 FLRYA 0.35 G/V           |L  |L    |7114439402|Terminal GET Male 0.64mm Unsealed       |                |                |      1 |PC|
+|S006417726|Circuit 0219 FLRYA 0.35 G/V           |L  |R    |7196033502|Terminal Other Female othermm Unsealed  |                |                |      1 |PC|
+|S006417727|Circuit 0038 FLRYA 0.35 B             |L  |     |C9706930  |LT Single Wire FLRYA 0.35 B             |                |                |    210 |MM|
+|S006417727|Circuit 0038 FLRYA 0.35 B             |L  |L    |7114439402|Terminal GET Male 0.64mm Unsealed       |                |                |      1 |PC|
+|S006417727|Circuit 0038 FLRYA 0.35 B             |L  |R    |7196033502|Terminal Other Female othermm Unsealed  |                |                |      1 |PC|
+|S006417728|Circuit 0276 FLRYA 0.35 Y/GY          |L  |L    |7114439402|Terminal GET Male 0.64mm Unsealed       |R               |                |      1 |PC|
+|S006417728|Circuit 0276 FLRYA 0.35 Y/GY          |L  |     |C9706915  |LT Single Wire FLRYA 0.35 Y/GY          |                |                |    210 |MM|
+|S006417728|Circuit 0276 FLRYA 0.35 Y/GY          |L  |     |7196033502|Terminal Other Female othermm Unsealed  |                |                |      1 |PC|
+|S006417729|Circuit 0219 FLRYA 0.35 G/V           |L  |     |C9706966  |LT Single Wire FLRYA 0.35 G/V           |                |                |    235 |MM|
+|S006417729|Circuit 0219 FLRYA 0.35 G/V           |L  |L    |7114439402|Terminal GET Male 0.64mm Unsealed       |                |                |      1 |PC|
+|S006417729|Circuit 0219 FLRYA 0.35 G/V           |L  |R    |7196033502|Terminal Other Female othermm Unsealed  |                |                |      1 |PC|
+|S006417730|Circuit 0038 FLRYA 0.35 B             |L  |     |C9706930  |LT Single Wire FLRYA 0.35 B             |                |                |    235 |MM|
+|S006417730|Circuit 0038 FLRYA 0.35 B             |L  |L    |7114439402|Terminal GET Male 0.64mm Unsealed       |                |                |      1 |PC|
+|S006417730|Circuit 0038 FLRYA 0.35 B             |L  |R    |7196033502|Terminal Other Female othermm Unsealed  |                |                |      1 |PC|
+|S006417941|Circuit 0276 FLRYA 0.35 Y/GY          |L  |L    |7114439402|Terminal GET Male 0.64mm Unsealed       |R               |                |      1 |PC|
+|S006417941|Circuit 0276 FLRYA 0.35 Y/GY          |L  |     |C9706915  |LT Single Wire FLRYA 0.35 Y/GY          |                |                |    235 |MM|
+|S006417941|Circuit 0276 FLRYA 0.35 Y/GY          |L  |     |7196033502|Terminal Other Female othermm Unsealed  |                |                |      1 |PC|
+---------------------------------------------------------------------------------------------------------------------------------------------------------------

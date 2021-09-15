@@ -1,10 +1,11 @@
 # Project for comparing obsolete or excessive wires with active wires on the shop floor
 
-#Python 3.9.5 (No external libraries)
+Python 3.9.5 (No external libraries)
 
-#SAP requirements: PP BOM Evaluation table (tcode YQ298 or similar).
+SAP requirements: PP BOM Evaluation table (tcode YQ298 or similar).
 
-#Current version works with single circuit wires.
+Current version works with single circuit wires.
+
 Use:
 
 Export the needed information for active materials from SAP table in unconverted .csv

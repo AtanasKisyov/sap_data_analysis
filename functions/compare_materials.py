@@ -1,4 +1,4 @@
-def compare_materials(obsolete_materials, active_materials):
+def compare_single_wires_materials(obsolete_materials, active_materials):
 
     for material in obsolete_materials:
 
@@ -17,3 +17,19 @@ def compare_materials(obsolete_materials, active_materials):
 
             if length_difference and len(material_difference) == 1:
                 material.rework[compared_material] = ''.join(material_difference)
+
+
+def compare_twisted_wires(obsolete_materials, active_materials):
+
+    for obsolete in obsolete_materials:
+
+        for active in active_materials:
+
+            if obsolete.material_number == active.material_number:
+                continue
+
+            length_difference = obsolete.compare_length(active)
+            material_difference = obsolete.compare_components(active)
+
+            if length_difference and len(material_difference) == 0:
+                obsolete.close_materials[active] = length_difference

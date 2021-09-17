@@ -1,4 +1,4 @@
-from classes.wire_types import SingleWire, TwistedWire, Splice
+from classes.wire_types import SingleWire, TwistedWire
 
 
 def create_single_wires(file):

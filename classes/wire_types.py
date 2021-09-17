@@ -40,9 +40,21 @@ class SingleWire:
             return first_material.difference(second_material)
         return set(self.components['Wire'])
 
+    @staticmethod
+    def tolerance(wire_difference):
+        if wire_difference in range(0, 101):
+            return 5
+        elif wire_difference in range(101, 201):
+            return 10
+        elif wire_difference in range(201, 501):
+            return 20
+        return 50
+
+
     def compare_length(self, other):
         difference = self.length - other.length
-        if 0 <= difference <= 50:
+        tolerance = self.tolerance(difference)
+        if difference <= tolerance:
             return difference
         return False
 
@@ -52,18 +64,19 @@ class TwistedWire(SingleWire):
     def __init__(self, material_number, description):
         super().__init__(material_number, description)
         self.wires = []  # SingleWire objects
+        self.spot_tape = ''
 
-    """
-    Unexpected issues with incoming data. Should be good to go in a few days.
-    """
+    def add_single_wire(self, single_wire):
+        self.wires.append(single_wire)
 
+    def define_protective_cover(self, protective_cover_number):
+        self.spot_tape = protective_cover_number
 
-class Splice(SingleWire):
-
-    def __init__(self, material_number, description):
-        super().__init__(material_number, description)
-        self.wires = []  # SingleWire objects
-
-    """
-        Unexpected issues with incoming data. Should be good to go in a few days.
-    """
+    def compare_wires(self, other):
+        result = [self.spot_tape == other.spot_tape, len(self.wires) == len(other.wires)]
+        for wire in self.wires:
+            for other_wire in other.wires:
+                result.append(other_wire in wire.close_materials)
+        if False in result:
+            return False
+        return True

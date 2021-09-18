@@ -1,8 +1,12 @@
 from classes.wire_types import SingleWire, TwistedWire
 
+def get_row_count(file):
+    with open(file, 'r') as file:
+        return sum(1 for _ in file) - 7
+
 
 def create_single_wires(file):
-
+    row_count = get_row_count(file)
     with open(file, 'r') as sheet:
 
         for _ in range(4):
@@ -19,12 +23,9 @@ def create_single_wires(file):
         component_descr_index = columns.index('BOM component')
         sheet.__next__()
 
-        while True:
+        for _ in range(row_count):
 
             current_line = [x.strip() for x in sheet.readline().split('|')]
-
-            if len(current_line) == 1:
-                break
 
             current_material_number = current_line[material_index]
             description = current_line[description_index]
@@ -70,6 +71,8 @@ def create_single_wires(file):
 
 def create_twisted_wires(file):
 
+    row_count = get_row_count(file)
+
     with open(file, 'r') as sheet:
 
         for _ in range(4):
@@ -83,12 +86,9 @@ def create_twisted_wires(file):
         component_index = columns.index('Component')
         sheet.__next__()
 
-        while True:
+        for _ in range(row_count):
 
             current_line = [x.strip() for x in sheet.readline().split('|')]
-
-            if len(current_line) == 1:
-                break
 
             current_material_number = current_line[material_index]
             description = current_line[description_index]

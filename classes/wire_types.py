@@ -38,7 +38,7 @@ class SingleWire:
             first_material = set(self.components.values())
             second_material = set(other.components.values())
             return first_material.difference(second_material)
-        return set(self.components['Wire'])
+        return self.components['Wire']
 
     @staticmethod
     def tolerance(wire_difference):
@@ -54,7 +54,7 @@ class SingleWire:
     def compare_length(self, other):
         difference = self.length - other.length
         tolerance = self.tolerance(difference)
-        if difference <= tolerance:
+        if 0 <= difference <= tolerance:
             return difference
         return False
 

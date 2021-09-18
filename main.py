@@ -1,30 +1,33 @@
-import time
-from functions.create_wires import create_single_wires
-from functions.compare_materials import compare_materials
+from functions.create_wires import create_single_wires, create_twisted_wires
+from functions.compare_materials import compare_single_wires_materials, compare_twisted_wires
 from functions.write_to_file import write_to_file
 
-start = time.time()
 
-print("File opened...")
 
-obsolete_materials = create_single_wires("Files/obsolete_wires.csv")
+def single_wire_comparison():
+    obsolete_materials = create_single_wires("Files/obsolete_wires.csv")
 
-print("Obsolete material objects created...")
+    active_materials = create_single_wires("Files/active_wires.csv")
 
-active_materials = create_single_wires("Files/active_wires.csv")
+    compare_single_wires_materials(obsolete_materials, active_materials)
 
-print("Active material objects created...")
+    write_to_file("Files/Analysis.csv", obsolete_materials)
 
-compare_materials(obsolete_materials, active_materials)
+    # send_mail()
 
-print("Materials are compared. Starting to write results into file...")
+def twisted_wire_comparison():
+    obsolete_materials = create_twisted_wires("Files/obsolete_wires.csv")
 
-write_to_file("Files/Analysis.csv", obsolete_materials)
+    active_materials = create_twisted_wires("Files/active_wires.csv")
 
-print("Workbook saved and closed!")
+    compare_twisted_wires(obsolete_materials, active_materials)
 
-end = time.time()
+    write_to_file('Files/Analysis.csv', obsolete_materials, False)
 
-difference = end - start
+    # send_mail()
 
-print(f"Analysis finished in {difference:.2f} seconds")
+
+if __name__ == '__main__':
+    function_mapper = {'single wires': single_wire_comparison, 'assembled wires': twisted_wire_comparison}
+    choice = input('What types of wires will be compared?\n')
+    function_mapper[choice]()

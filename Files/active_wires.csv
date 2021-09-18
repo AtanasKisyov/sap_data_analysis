@@ -1,9 +1,10 @@
-15.09.2021                                                                PP BOM Evaluation                                                                   1
+15.09.2021 PP BOM Evaluation 1
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 PP BOM Evaluation
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-|Material  |Material Number                         |ICt|Spare|Component |BOM component                           |Item Text Line 1|Item text line 2|Quantity|Un|
+|Material |Material Number |ICt|Spare|Component |BOM component |Item Text Line 1|Item text line 2|Quantity|Un|
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|S000632712|Circuit 0038 FLRYA 0.35 B             |L  |     |C9706930  |LT Single Wire FLRYA 0.35 B             |                |                |  1 710 |MM|
 |S000632712|Circuit 0038 FLRYA 0.35 B             |L  |L    |7116567802|Terminal GET Female 0.64mm Unsealed     |                |                |      1 |PC|
 |S000632712|Circuit 0038 FLRYA 0.35 B             |L  |R    |7116415002|Terminal YESC Female 2.8mm Sealed       |                |                |      1 |PC|
 |S000632712|Circuit 0038 FLRYA 0.35 B             |L  |R    |7158311160|Single Wire Seal Green                  |                |                |      1 |PC|

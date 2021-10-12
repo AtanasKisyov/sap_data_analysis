@@ -19,5 +19,5 @@ Export the information for your obsolete and active twisted wires in separate fi
 There should be a third file which must contain the information for all circuit wires in your system.
 Be sure to name them "obsolete_wires.csv", "active_wires.csv" and "lower_wires.csv"
 
-Run the "main.py" file the console. You will be asked what type of analysis you need.
+Run the "main.py" file in the console. You will be asked what type of analysis you need.
 Choose between "single wires" and "twisted wires"

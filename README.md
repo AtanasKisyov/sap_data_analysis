@@ -8,16 +8,14 @@ Current version works with single circuit wires and twisted wires.
 
 Use:
 
-Single Wires:
+Export the information from SAP in unconverted csv named 'wires.csv' 
 
-Export the information from SAP for your obsolete and active wires in separate files.
-Be sure to name them "obsolete_wires.csv" and "active_wires.csv".
+All your materials will be sorted by a 'combination key' which is a concatenated string of all used components
+for the current material.
 
-Twisted Wires:
+Update: 
 
-Export the information for your obsolete and active twisted wires in separate files.
-There should be a third file which must contain the information for all circuit wires in your system.
-Be sure to name them "obsolete_wires.csv", "active_wires.csv" and "lower_wires.csv"
+Cut Big O complexity which with all materials loaded from shop floor hit 81 000 000 iterations.
 
-Run the "main.py" file in the console. You will be asked what type of analysis you need.
-Choose between "single wires" and "twisted wires"
+Now its just one and all result are saved in a json file for quick future updates and analysis.
+

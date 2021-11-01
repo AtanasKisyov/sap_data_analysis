@@ -18,6 +18,7 @@ Python 3.9.5 (No external libraries)
 
 2.Material Stock Coverage Project:
     
+
     SAP Requirements: PKMC, MB52 and SE16_MDSM transaction codes access.
     
     Use: 
